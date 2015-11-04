@@ -1,0 +1,6 @@
+option java_package="msg.proto.pojo";
+option java_outer_classname="TestProto";
+
+message Test{
+ required int32 id=1;
+}

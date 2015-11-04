@@ -1,0 +1,12 @@
+import "Test.proto";
+option java_package="msg.proto.pojo";
+option java_outer_classname="UserProto";
+
+message User{
+ required string name=1;
+ required int32 id=2;
+ required string gender=3;
+
+ optional  Test test=4;
+
+}
